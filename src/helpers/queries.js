@@ -2,26 +2,26 @@ const URI_Habitacion = import.meta.env.VITE_API_HABITACION;
 
 
 
-// POST
-export const crearHabitacionAPI = async (habitacionNuevo) => {
-  try {
+
+ export const crearHabitacionAPI = async (habitacionNuevo) => {
+   try {
     const respuesta = await fetch(URI_Habitacion, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(habitacionNuevo),
+     body: JSON.stringify(habitacionNuevo),
     });
-    return respuesta;
+     return respuesta;
   } catch (error) {
     console.log(error);
   }
 };
 
+  
+ 
 
 
-
-//GET
 
  export const leerHabitacionesAPI = async () => {
    try {
@@ -33,7 +33,7 @@ export const crearHabitacionAPI = async (habitacionNuevo) => {
    }
  };
 
-//DELETE
+
 export const borrarHabitacionAPI = async (id) => {
   try {
     const respuesta = await fetch(`${URI_Habitacion}/${id}`, {
@@ -47,7 +47,7 @@ export const borrarHabitacionAPI = async (id) => {
 };
 
 
-//GET de una Habitacion
+
 export const obtenerHabitacionAPI = async (id) => {
   try {
     const respuesta = await fetch(`${URI_Habitacion}/${id}`);
@@ -58,7 +58,7 @@ export const obtenerHabitacionAPI = async (id) => {
   }
 };
 
-//PUT
+
 export const modificarHabitacionAPI = async (habitacion, id) => {
   try {
     const respuesta = await fetch(`${URI_Habitacion}/${id}`,{

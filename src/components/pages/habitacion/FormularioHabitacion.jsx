@@ -61,7 +61,7 @@ const navegacion = useNavigate();
       
       const respuesta = await crearHabitacionAPI(habitacion);
       
-      if (respuesta.status === 201) {
+      if (respuesta?.status === 201) {
         Swal.fire({
           title: "Habitacion creada",
           text: `La habitacion "${habitacion.nombreHabitacion}" fue creada correctamente`,

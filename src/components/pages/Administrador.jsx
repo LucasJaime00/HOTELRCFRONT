@@ -13,7 +13,7 @@ const Administrador = () => {
   }, []);
 
   const obtenerhabitaciones = async () => {
-    const respuesta = await leerhabitacionesAPI();
+    const respuesta = await leerHabitacionesAPI;
     if (respuesta.status === 200) {
       //guardar el array en el state
       const datos = await respuesta.json();

@@ -13,12 +13,10 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img
-            src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="Logo "
-            className="img-fluid"
-            width={150}
-          />
+        <Link className="btn btn-primary" to="/">
+        <i class="bi bi-bootstrap-fill "></i>
+        </Link>
+        
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
