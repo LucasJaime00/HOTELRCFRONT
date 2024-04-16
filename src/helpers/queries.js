@@ -26,7 +26,7 @@ export const crearHabitacionAPI = async (habitacionNuevo) => {
  export const leerHabitacionesAPI = async () => {
    try {
      const respuesta = await fetch(URI_Habitacion);
-     console.log("Mensaje personalizado: matias", respuesta); // Agregué el mensaje personalizado "matias" aquí
+     console.log("Mensaje personalizados", respuesta); // 
      return respuesta;
    } catch (error) {
      console.log(error);

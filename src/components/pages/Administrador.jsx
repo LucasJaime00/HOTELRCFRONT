@@ -2,7 +2,7 @@ import { Container, Table, Button } from "react-bootstrap";
 import ItemHabitacion from "./habitacion/ItemHabitacion";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { leerhabitacionesAPI } from "../../helpers/queries";
+import { leerHabitacionesAPI } from "../../helpers/queries";
 import Swal from "sweetalert2";
 
 const Administrador = () => {

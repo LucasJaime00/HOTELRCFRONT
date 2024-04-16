@@ -153,7 +153,7 @@ const navegacion = useNavigate();
             })}
           >
             <option value="">Seleccione una opcion</option>
-            <option value="JUNIOR SUITE">Infusiones</option>
+            <option value="JUNIOR SUITE">JUNIOR SUITE</option>
             <option value="SENIOR SUITE">SENIOR SUITE</option>
             <option value="DELUXE SUITE">DELUXE SUITE</option>
             <option value="SUITE OLIMPO">SUITE OLIMPO</option>
