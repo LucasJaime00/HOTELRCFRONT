@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer  = () => {
   return (
-    <footer className="footer">
+    <footer className="text-center bg-green text-light py-1">
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -15,9 +15,10 @@ const Footer = () => {
           <div className="col-md-4">
             <h4>Redes Sociales</h4>
             <ul className="social-icons">
-              <li><a href="#"><i className="fab fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+            <i class="bi bi-facebook fs-2"></i> <br />
+            <i class="bi bi-instagram fs-2"></i><br />
+            <i class="bi bi-twitter-x fs-2"></i>
+            
             </ul>
           </div>
           <div className="col-md-4">
@@ -30,8 +31,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
-              <p>&copy; 2024 Hotel Serenity. Todos los derechos reservados.</p>
+            <div className="col-md-12 text-center">
+              <p>&copy; 2024 HOTELRC. Todos los derechos reservados.</p>
             </div>
           </div>
         </div>

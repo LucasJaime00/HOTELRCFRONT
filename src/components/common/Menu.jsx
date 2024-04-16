@@ -1,6 +1,7 @@
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 
+
 const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
 
   const logout = ()=>{
@@ -9,12 +10,12 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
     
     setUsuarioLogueado("")
   }
-  return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
+  return ( 
+    <Navbar expand="lg" className="text-center bg-green text-light py-3">
+      <Container className="bg-fondo">
         <Navbar.Brand as={Link} to="/">
-        <Link className="btn btn-primary" to="/">
-        <i class="bi bi-bootstrap-fill "></i>
+        <Link className="btn btn-black" to="/">
+        <i class="bi bi-bootstrap-fill fs-2 "></i>
         </Link>
         
         </Navbar.Brand>
