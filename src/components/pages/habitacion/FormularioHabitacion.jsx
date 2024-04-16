@@ -67,7 +67,7 @@ const navegacion = useNavigate();
           text: `La habitacion "${habitacion.nombreHabitacion}" fue creada correctamente`,
           icon: "success",
         });
-        //limpiar el formulario
+        
         reset();
       } else {
         Swal.fire({

@@ -29,7 +29,7 @@ const Inicio = () => {
     <>
       <img
         className="banner"
-        src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://images.pexels.com/photos/14387344/pexels-photo-14387344.jpeg"
         alt="fondo de hotel"
       />
       <Container className="mainContainer my-4">

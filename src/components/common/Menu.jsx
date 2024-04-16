@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/";
+
 const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
 
   const logout = ()=>{
@@ -14,7 +14,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src={logo}
+            src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Logo "
             className="img-fluid"
             width={150}

@@ -77,7 +77,7 @@ export const modificarHabitacionAPI = async (habitacion, id) => {
 
 const userAdmin={
   email: "admin@rchotel.com",
-  password: "123Aa1233"
+  password: "123ABCabc"
 }
 
 export const iniciarSesion = (usuario)=>{
