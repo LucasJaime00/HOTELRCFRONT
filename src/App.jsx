@@ -13,7 +13,7 @@ import Login from "./components/pages/Login";
 import RutasProtegidas from "./components/routes/RutasProtegidas";
 import RutasAdmin from "./components/routes/RutasAdmin";
 import { useState } from "react";
-import Registro from './components/pages/Registro';
+
 
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
           element={<DetalleHabitacion></DetalleHabitacion>}
         ></Route>
        
-        <Route exact path="/registro" element={Registro}></Route>
+        
         <Route exact path="/login" element={<Login setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
         <Route
           exact

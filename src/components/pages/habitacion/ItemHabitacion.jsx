@@ -48,7 +48,7 @@ const ItemHabitacion = ({ habitacion, setHabitaciones }) => {
 
   return (
     <tr>
-      {/* <td className="text-center">{producto._id}</td> */}
+      {/* <td className="text-center">{producto._id}</td>  */}
       <td>{habitacion.nombreHabitacion}</td>
       <td className="text-end">${habitacion.precio}</td>
       <td className="text-center">

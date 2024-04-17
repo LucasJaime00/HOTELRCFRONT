@@ -15,7 +15,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
       <Container className="bg-fondo">
         <Navbar.Brand as={Link} to="/">
         <Link className="btn btn-black" to="/">
-        <i class="bi bi-bootstrap-fill fs-2 "></i>
+        <i className="bi bi-bootstrap-fill fs-2 "></i>
         </Link>
         
         </Navbar.Brand>

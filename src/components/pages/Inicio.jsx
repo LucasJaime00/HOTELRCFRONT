@@ -53,7 +53,7 @@ const Inicio = () => {
 </article>
 <article>
 
- <div class="room-service-description">
+ <div className="room-service-description">
   <h2>Servicio a la Habitación: Experiencia Gastronómica en la Comodidad de tu Habitación</h2>
   <p>Disfruta de una experiencia gastronómica excepcional sin salir de la comodidad y privacidad de tu habitación con nuestro servicio a la habitación. En Hotel Serenity, nos esforzamos por brindar a nuestros huéspedes una experiencia de lujo y conveniencia, y nuestro servicio a la habitación es una extensión de ese compromiso.</p>
   <h3>¿Qué Ofrecemos?</h3>
