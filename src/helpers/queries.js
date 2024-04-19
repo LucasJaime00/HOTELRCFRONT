@@ -26,7 +26,7 @@ const URI_Habitacion = import.meta.env.VITE_API_HABITACION;
  export const leerHabitacionesAPI = async () => {
    try {
      const respuesta = await fetch(URI_Habitacion);
-     console.log("Mensaje personalizados", respuesta); // 
+     console.log("Mensaje personalizados", respuesta); 
      return respuesta;
    } catch (error) {
      console.log(error);

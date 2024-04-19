@@ -22,8 +22,8 @@ const navegacion = useNavigate();
         text: `Ingresaste al sistema de hotelRC`,
         icon: "success",
       });
-      setUsuarioLogueado(usuario.email)
-      navegacion('/administrador')
+      setUsuarioLogueado(usuario.email);
+      navegacion('/administrador');
     }else{
       Swal.fire({
         title: "Ocurrio un error",

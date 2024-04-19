@@ -8,24 +8,44 @@ import Swal from "sweetalert2";
 const Administrador = () => {
   const [habitaciones, sethabitaciones] = useState([]);
 
+  // useEffect(() => {
+  //   obtenerhabitaciones();
+  // }, []);
+
+  // const obtenerhabitaciones = async () => {
+  //   const respuesta = await leerHabitacionesAPI;
+  //   if (respuesta.status === 200) {
+  //     //guardar el array en el state
+  //     const datos = await respuesta.json();
+  //     sethabitaciones(datos);
+  //   }else{
+  //     Swal.fire({
+  //       title: "Ocurrio un error",
+  //       text: `Intenta esta operación en unos minutos.`,
+  //       icon: "error"
+  //     });
+  //   }
+  // };
+
   useEffect(() => {
-    obtenerhabitaciones();
+    obtenerHabitaciones();
   }, []);
 
-  const obtenerhabitaciones = async () => {
-    const respuesta = await leerHabitacionesAPI;
+  const obtenerHabitaciones = async () => {
+    const respuesta = await leerHabitacionesAPI();
     if (respuesta.status === 200) {
-      //guardar el array en el state
+      
       const datos = await respuesta.json();
       sethabitaciones(datos);
-    }else{
+    } else {
       Swal.fire({
         title: "Ocurrio un error",
         text: `Intenta esta operación en unos minutos.`,
-        icon: "error"
+        icon: "error",
       });
     }
   };
+
 
   return (
     <Container className="mainContainer">
